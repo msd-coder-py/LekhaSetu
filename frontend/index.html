@@ -983,7 +983,7 @@
         };
 
         // BACKEND API BRIDGE — Java Inventory is the persistent source of truth.
-        const LEKHASETU_API = 'http://localhost:8080/api';
+        const LEKHASETU_API = 'https://lekhasetu-backend.onrender.com/api';
 
         async function apiRequest(path, options = {}) {
             const response = await fetch(`${LEKHASETU_API}${path}`, options);
